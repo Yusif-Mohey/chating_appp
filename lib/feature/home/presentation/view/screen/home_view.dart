@@ -1,4 +1,4 @@
-import 'package:chating_app/feature/home/presentation/view/widget/homr_view_body.dart';
+import 'package:chating_app/feature/home/presentation/view/widget/home_view_body.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatelessWidget {
@@ -8,7 +8,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SafeArea(
       child: Scaffold(
-        body: HomrViewBody(),
+        body: HomeViewBody(),
       ),
     );
   }
